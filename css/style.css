@@ -1,0 +1,605 @@
+/*
+    ===== Autthor Info =====
+
+    Name : Md.Ariful Islam 
+    Student Of Programming Hero
+*/
+
+
+
+/*
+    ===== Index =====
+
+    01. Global CSS
+    02. Header Section CSS
+    03. Navigation Section CSS
+    04. Banner Section CSS
+    05. Learn Section CSS
+    06. Course Section
+    07. Testimonial Section CSS
+    08. Others Section CSS
+    09. Sign in Section CSS
+    10. Footer Section CSS
+    11. Responsive CSS
+    
+*/
+
+/*Global CSS*/
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+.btn-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.btn {
+    background: #21B573;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s linear;
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: #111;
+    background: #FBD15B;
+}
+
+/*Navigation Section Start*/
+
+header {
+    background: #F0FFF0;
+}
+
+.navbar-brand {
+    width: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    padding: 0px 25px;
+    transition: 0.5s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #FBD15B;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #111;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.btn-sign {
+    background: #21B573;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s linear;
+}
+
+.btn-sign:hover {
+    text-decoration: none;
+    color: #111;
+    background: #FBD15B;
+}
+
+
+/*Navigation Section End*/
+
+
+/*Banner Section Start*/
+
+.banner {
+    background: #F0FFF0;
+}
+
+.banner .left {
+    padding-top: 40px;
+}
+
+.banner .right {}
+
+.banner h5 {
+    color: red;
+    padding-bottom: 15px;
+}
+
+.banner h1 {
+    padding-right: 22%;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 15px;
+}
+
+.banner h1 span {
+    color: #21B573;
+}
+
+.banner p {
+    padding-right: 9%;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.banner .btn-start {
+    background: #21B573;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s linear;
+}
+
+.banner .btn-start:hover {
+    background: #FBD15B;
+    color: #111;
+}
+
+
+
+/*Banner Section End*/
+
+/*Learn Section Start*/
+
+.learn h1 {
+    padding-bottom: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: #413960;
+}
+
+.learn {
+    text-align: center;
+}
+
+.learn .card {
+    padding: 40px 0px 20px;
+    background: #fff;
+    height: 280px;
+    box-shadow: 5px 5px 20px 10px grey;
+}
+
+.book .card img {
+    display: block;
+    width: 28%;
+    margin: 0 auto;
+}
+
+.student .card img {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.test .card img {
+    display: block;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.students .card img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.learn .card h4 {
+    padding-top: 20px;
+}
+
+.learn .bg-color {
+    background: #F0FFF0;
+    border: none;
+    box-shadow: 5px 5px 20px darkgreen;
+}
+
+/*Learn Section End*/
+
+/*Course Section Start*/
+
+.course h1 {
+    padding-bottom: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: #413960;
+}
+
+.course .card {
+    padding: 20px;
+    border: none;
+    box-shadow: 5px 5px 20px 10px darkgrey;
+    border-radius: 15px;
+}
+
+.course .card-body {
+    padding: 0px;
+}
+
+.course h4 {
+    padding-top: 25px;
+}
+
+.course p {
+    padding-bottom: 15px;
+}
+
+.course .font-awesome {
+    padding-top: 20px;
+}
+
+.font-awesome span {
+    padding-left: 10px;
+}
+
+.course .fa-user {
+    float: right;
+}
+
+
+
+/*Course Section End*/
+
+/*Testimonial Section Start*/
+
+.testimonial h1 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: #413960;
+}
+
+.testimonial img {
+    width: 100%;
+}
+
+.testimonial p {
+    padding-top: 40px;
+    padding-right: 20%;
+}
+
+/*Testimonial Section End*/
+
+/*Others Section Start*/
+
+.others {
+    background: #282531;
+    color: #fff;
+    height: 450px;
+    padding: 80px 0px;
+}
+
+.others .right h5 {
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+/*Others Section End*/
+
+/*Sign in Section Start*/
+
+.sign {
+    background: url(../img/new.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
+.sign .box {}
+
+.sign h1 {
+    text-align: center;
+    color: white;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    font-style: italic;
+    margin: 30px 0px;
+}
+
+.btn-modify {
+    background: #21B573;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s linear;
+
+}
+
+.btn-modify:hover {
+    text-decoration: none;
+    color: #111;
+    background: #FBD15B;
+}
+
+/*Sign in Section End*/
+
+
+/*Footer Section Start*/
+
+footer {
+    background-color: #282531;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0px;
+    padding: 10px;
+}
+
+/*Footer Section End*/
+
+
+
+
+
+/*Responsive Section Start*/
+
+
+
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    header {
+        padding-top: 20px;
+    }
+
+    .navbar-brand {
+        width: 42%;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    section {
+        padding: 60px 0px;
+    }
+
+    .navbar-brand {
+        width: 65%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 15px 25px;
+    }
+
+    .banner h5 {
+        padding-bottom: 0px;
+    }
+
+    .banner h1 {
+        padding-right: 0;
+        line-height: 50px;
+        padding-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .learn .card {
+        margin-bottom: 30px;
+    }
+
+    .course .card {
+        text-align: center;
+    }
+
+    .card .btn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .font-awesome span {
+        padding-left: 10px;
+    }
+
+    .course .fa-user {
+        float: none;
+    }
+
+    .testimonial img {
+        padding-top: 55px;
+    }
+
+    .testimonial h1 {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    section {
+        padding: 80px 0px 0px;
+    }
+
+    .learn h1 {
+        padding-bottom: 50px;
+    }
+
+    .testimonial h1 {
+        padding-bottom: 0px;
+    }
+
+    .course h1 {
+        padding-bottom: 50px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .banner {
+        padding-top: 20px;
+    }
+
+    .banner .left {
+        padding-bottom: 60px;
+    }
+
+    .banner .right {
+        padding-top: 40px;
+    }
+
+    .learn .card {
+        height: 360px;
+        margin-bottom: 75px;
+    }
+
+    .course .card {
+        margin-bottom: 60px;
+    }
+
+    .course {
+        text-align: center;
+    }
+
+    .font-awesome {
+        text-align: initial;
+    }
+
+    .testimonial img {
+        padding-top: 40px;
+    }
+
+    .testimonial p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .others {
+        text-align: center;
+        height: 950px;
+    }
+
+    .others .right h5 {
+        font-size: 35px;
+    }
+
+    .btn-modify {
+        float: right;
+    }
+
+    .sign .box {
+        padding-bottom: 50px;
+    }
+
+
+}
+
+@media(min-width: 320px) and (max-width: 575px) {
+
+    .logo {
+        width: 100%;
+    }
+
+    .banner {
+        padding-top: 0px;
+    }
+
+    .banner h1 {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .banner p {
+        padding-right: 0px;
+    }
+
+    .banner .left {
+        padding-bottom: 60px;
+    }
+
+    .learn {
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .learn h1 {
+        padding-bottom: 25px;
+    }
+
+    .learn .card {
+        margin-bottom: 30px;
+        height: 350px;
+    }
+
+    .course h1 {
+        padding-bottom: 30px;
+    }
+
+    .course {
+        text-align: center;
+    }
+
+    .font-awesome {
+        text-align: initial;
+    }
+
+    .course .card {
+        margin-bottom: 30px;
+    }
+
+    .testimonial {
+        padding-top: 0px;
+    }
+
+    .testimonial h1 {
+        padding-bottom: 25px;
+    }
+
+    .testimonial p {
+        padding-top: 40px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .others {
+        text-align: center;
+        height: 960px;
+    }
+
+    .others .right h5 {
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+/*Responsive Section End*/
